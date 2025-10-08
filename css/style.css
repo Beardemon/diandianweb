@@ -1,0 +1,90 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 4rem;
+}
+
+
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+  .img-figure {
+    width: 14rem;
+  } 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .img-figure {
+    width: 16rem;
+  } 
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .img-figure {
+    width: 17rem;
+  } 
+}
+
+ /*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+  .img-figure {
+    width: 18rem;
+  } 
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+  .img-figure {
+    width: 19rem;
+  } 
+}
+
+#img-list { 
+ overflow-x: scroll !important;
+ overflow-y: hidden;
+ list-style: none;
+ white-space:nowrap;
+ width:auto;
+ padding: 0;
+ margin-top: 10px;
+}
+
+#img-item { 
+ display: inline-block;
+ padding: 0;
+}
+
+.img-divider {
+  margin-right: 10px;
+}
+
+.img-caption {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.modal-body {
+	padding: 6px;
+}
+
+.modal-header {
+	padding: 10px 16px;
+}
+
+.modal-title {
+	font-size: 1.2rem;
+}
+
+.popover-header {
+	padding: 15px;
+}
+
+.popover-body {
+	padding: 10px;
+}
+
+.img-qq-group {
+	width: 200px;
+	height: auto; 
+}
+
