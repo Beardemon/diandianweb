@@ -1,4 +1,4 @@
-var screenShotJson = '[{"pic_name":"1","url":"image/1.jpg"},{"pic_name":"2","url":"image/2.jpg"},{"pic_name":"3","url":"image/3.jpg"},{"pic_name":"4","url":"image/4.jpg"},{"pic_name":"5","url":"image/5.jpg"},{"pic_name":"6","url":"image/6.jpg"},{"pic_name":"7","url":"image/7.jpg"}]';
+var screenShotJson = '[{"pic_name":"1","url":"image/1.png"},{"pic_name":"2","url":"image/2.png"},{"pic_name":"3","url":"image/3.png"},{"pic_name":"4","url":"image/4.png"},{"pic_name":"5","url":"image/5.png"}]';
 
 function inflateScreenshots() {
 	var list = $('#img-list');
