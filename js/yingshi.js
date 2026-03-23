@@ -9,7 +9,8 @@ function inflateScreenshots() {
 		list.append('<li class="img-item">'+
 			'<figure class="img-figure img-divider">'+
 			'<a href="' + screenShot.url + '" target="_blank" data-toggle="lightbox" data-gallery="screenShot-gallery" data-type="image">'+
-			'<img src="image/' + screenShot.pic_name + '.jpg" class="img-fluid" alt="picture">'+
+			// Use the exact URL (currently points to image/{n}.png) so <img> can load correctly.
+			'<img src="' + screenShot.url + '" class="img-fluid" alt="picture">'+
 			'</a>'+
 			'</figure>'+
 			'</li>');
